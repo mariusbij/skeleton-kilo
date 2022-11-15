@@ -5,12 +5,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Marius\\Kilo\\": "src/"
+            "App\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Marius\\Kilo\\Tests\\": "tests/"
+            "App\\Tests\\": "tests/"
         }
     },
     "authors": [
