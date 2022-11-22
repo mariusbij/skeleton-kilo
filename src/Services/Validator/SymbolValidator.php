@@ -2,8 +2,6 @@
 
 namespace App\Services\Validator;
 
-use App\Services\Validator\Exceptions\ValidatorInvalidInputException;
-
 class SymbolValidator implements ValidatorInterface
 {
     private string $errorMessage;

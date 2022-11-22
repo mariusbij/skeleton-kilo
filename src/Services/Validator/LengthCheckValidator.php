@@ -2,8 +2,6 @@
 
 namespace App\Services\Validator;
 
-use App\Services\Validator\Exceptions\ValidatorInvalidInputException;
-
 class LengthCheckValidator implements ValidatorInterface
 {
     private string $errorMessage;
